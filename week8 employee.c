@@ -1,4 +1,9 @@
-
+/*
+name:stephen ngugi
+reg_no:BCS-01-0133/2026
+description:employee details
+date:02/07/2026
+*/
 #include <stdio.h>
 
 struct employee {
