@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main(){
+	
+	int height;
+	int radius;
+	int PI=3.142;
+	int volume;
+	int surface_area;
+	
+	printf("enter height\n");
+	scanf("%d",&height);
+	
+	printf("enter radius\n");
+	scanf("%d",&radius);
+	
+	volume=PI*radius*radius*height;
+	surface_area=(2*PI*radius*radius)+(2*PI*radius*height);
+	
+
+	printf("height:%d\n",height);
+	printf("radius:&d\n",radius);
+		printf("volume:%d\n",volume);
+	printf("surface_area:%d\n",surface_area);
+	
+	return 0;
+}
