@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+ 
+    int age;
+    int income;
+    
+    printf("enter income\n");
+    scanf("%d",&income);
+    
+    printf("enter age\n");
+    scanf("%d",&age);
+    
+    if(income <2100){
+		if(age<21);
+		
+		printf("you have not qualified for a loan");
+	}	
+	else{
+		printf("you have qualified for a loan");
+	}
+
+    
+return 0;
+	
+}
