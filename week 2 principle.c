@@ -20,7 +20,7 @@ int main(){
 		printf("enter principle");
 	scanf("%d",&principle);
 	
-	amount=principle*(1+rate/100)*time 
+	amount=principle*(1+rate/100)*time ;
 	
 	printf("time:%d\n",time);
 	printf("rate:%d\n",rate);
