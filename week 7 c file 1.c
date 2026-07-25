@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*
+    name:stephen ngugi
+adm:bcs-01-0133/2026
+    */
 
 int main() {
     FILE *file;
