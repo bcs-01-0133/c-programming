@@ -4,7 +4,7 @@ name:stephen ngugi
 adm:bcs-01-0133/2026
 */
 
-int amin(){
+int main(){
 	
 	int time;
 	int rate;
@@ -20,7 +20,7 @@ int amin(){
 		printf("enter principle");
 	scanf("%d",&principle);
 	
-	amount=(principle*time*rate)/100;
+	amount=principle*(1+rate/100)*time 
 	
 	printf("time:%d\n",time);
 	printf("rate:%d\n",rate);
